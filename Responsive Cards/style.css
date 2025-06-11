@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  place-items: center;
+  /* margin-inline: 1.5rem; */
+  padding-block: 5rem;
+}
+.card_container {
+  display: grid;
+  row-gap: 3.5rem;
+}
+.card_article {
+  position: relative;
+  /* overflow: hidden; */
+}
+.card_img {
+  width: 400px;
+  border-radius: 1.5rem;
+}
+.card_data {
+  width: 300px;
+  background-color: beige;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px hsla(0%, 0%, 0%, 0.15);
+  border-radius: 2rem;
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  /* opacity: 0; */
+  transition: opacity 1s 1s;
+}
