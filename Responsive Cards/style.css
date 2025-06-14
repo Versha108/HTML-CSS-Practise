@@ -125,6 +125,17 @@
 
 @media screen and (min-width: 1120px) {
   .container {
-    height: 348px;
+    height: 100vh;
+  }
+
+  .card_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card_img {
+    width: 348px;
+  }
+  .card_data {
+    width: 316px;
+    padding-inline: 2.5rem;
   }
 }
